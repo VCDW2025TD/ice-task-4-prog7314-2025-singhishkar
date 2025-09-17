@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "172768589721",
+    "project_id": "memestream-9c548",
+    "storage_bucket": "memestream-9c548.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172768589721:android:90413cd9a6ac29fb05c508",
+        "android_client_info": {
+          "package_name": "com.ishka.memestream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172768589721-pk03jmfpaahvhm098m64uelj2oifhtkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfbbOtlQ5f17RCgfJMHISg_KrZw1GiSCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172768589721-pk03jmfpaahvhm098m64uelj2oifhtkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

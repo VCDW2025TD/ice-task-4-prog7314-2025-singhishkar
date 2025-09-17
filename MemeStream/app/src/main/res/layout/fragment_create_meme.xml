@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewSelected"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#ccc"
+            android:scaleType="centerCrop" />
+
+        <!-- 🔁 Replacing image picker with an image URL input -->
+        <EditText
+            android:id="@+id/editTextImageUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Paste image URL here (https://...)" />
+
+        <EditText
+            android:id="@+id/editTextCaption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Caption" />
+
+        <Button
+            android:id="@+id/buttonGetLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Location" />
+
+        <Button
+            android:id="@+id/buttonPostMeme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Meme" />
+
+    </LinearLayout>
+
+</ScrollView>
